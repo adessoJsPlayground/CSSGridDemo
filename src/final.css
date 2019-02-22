@@ -64,7 +64,7 @@
 
 @media screen and (max-width: 800px) {
     .gridHolder {
-        grid-template-columns: 1fr minmax(1fr, 2fr) 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         /* // IE 11 Support */
         grid-template-rows: repeat(4, calc(100vh / 3));
         grid-template-areas: 

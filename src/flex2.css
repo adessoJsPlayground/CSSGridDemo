@@ -12,7 +12,7 @@
     margin: 10px;
 
     display: grid;
-    grid-template-columns: 1fr minmax(1fr, 2fr) 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     /* // IE 11 Support */
     grid-template-rows: repeat(3, calc(100vh / 3));
     grid-template-rows: repeat(3, calc(calc(calc(100vh - calc(10px * 2)  - calc(10px * calc(3 - 1)) ) / 3) ));
